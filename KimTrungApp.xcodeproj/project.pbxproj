@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0008076C2B32D359007EC236 /* OnBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0008076B2B32D359007EC236 /* OnBoardViewController.swift */; };
+		000AA1B32B4669B100919F59 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000AA1B22B4669B100919F59 /* RegisterViewController.swift */; };
+		00566CAD2B4D56DD0054CAD5 /* InfoProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00566CAB2B4D56DD0054CAD5 /* InfoProductCollectionViewCell.swift */; };
+		00566CAE2B4D56DD0054CAD5 /* InfoProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00566CAC2B4D56DD0054CAD5 /* InfoProductCollectionViewCell.xib */; };
 		00842CF22B3195110033BB86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00842CF12B3195110033BB86 /* AppDelegate.swift */; };
 		00842CF42B3195110033BB86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00842CF32B3195110033BB86 /* SceneDelegate.swift */; };
 		00842CF62B3195110033BB86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00842CF52B3195110033BB86 /* ViewController.swift */; };
@@ -14,9 +18,34 @@
 		00842CFC2B3195110033BB86 /* KimTrungApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00842CFA2B3195110033BB86 /* KimTrungApp.xcdatamodeld */; };
 		00842CFE2B3195120033BB86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00842CFD2B3195120033BB86 /* Assets.xcassets */; };
 		00842D012B3195120033BB86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00842CFF2B3195120033BB86 /* LaunchScreen.storyboard */; };
+		008AF21F2B32E57E002F057C /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF20D2B32E57D002F057C /* Poppins-ExtraLight.ttf */; };
+		008AF2202B32E57E002F057C /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF20E2B32E57D002F057C /* Poppins-ThinItalic.ttf */; };
+		008AF2212B32E57E002F057C /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF20F2B32E57D002F057C /* Poppins-ExtraLightItalic.ttf */; };
+		008AF2222B32E57E002F057C /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF2102B32E57D002F057C /* Poppins-BoldItalic.ttf */; };
+		008AF2232B32E57E002F057C /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF2112B32E57D002F057C /* Poppins-Light.ttf */; };
+		008AF2242B32E57E002F057C /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF2122B32E57D002F057C /* Poppins-Medium.ttf */; };
+		008AF2252B32E57E002F057C /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF2132B32E57D002F057C /* Poppins-SemiBoldItalic.ttf */; };
+		008AF2262B32E57E002F057C /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF2142B32E57D002F057C /* Poppins-ExtraBoldItalic.ttf */; };
+		008AF2272B32E57E002F057C /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF2152B32E57D002F057C /* Poppins-ExtraBold.ttf */; };
+		008AF2282B32E57E002F057C /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF2162B32E57D002F057C /* Poppins-BlackItalic.ttf */; };
+		008AF2292B32E57E002F057C /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF2172B32E57D002F057C /* Poppins-Regular.ttf */; };
+		008AF22A2B32E57E002F057C /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF2182B32E57D002F057C /* Poppins-LightItalic.ttf */; };
+		008AF22B2B32E57E002F057C /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF2192B32E57D002F057C /* Poppins-Bold.ttf */; };
+		008AF22C2B32E57E002F057C /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF21A2B32E57D002F057C /* Poppins-Black.ttf */; };
+		008AF22D2B32E57E002F057C /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF21B2B32E57D002F057C /* Poppins-Thin.ttf */; };
+		008AF22E2B32E57E002F057C /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF21C2B32E57D002F057C /* Poppins-SemiBold.ttf */; };
+		008AF22F2B32E57E002F057C /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF21D2B32E57D002F057C /* Poppins-Italic.ttf */; };
+		008AF2302B32E57E002F057C /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF21E2B32E57D002F057C /* Poppins-MediumItalic.ttf */; };
+		00A266482B3920A500116424 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A266472B3920A500116424 /* LoginViewController.swift */; };
+		00A2666D2B3A790D00116424 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2666C2B3A790D00116424 /* ChoiceViewController.swift */; };
+		4CE73F8C9A3DE6D422F8E8B5 /* Pods_KimTrungApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469E153F553B86A818D198D3 /* Pods_KimTrungApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0008076B2B32D359007EC236 /* OnBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardViewController.swift; sourceTree = "<group>"; };
+		000AA1B22B4669B100919F59 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		00566CAB2B4D56DD0054CAD5 /* InfoProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		00566CAC2B4D56DD0054CAD5 /* InfoProductCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoProductCollectionViewCell.xib; sourceTree = "<group>"; };
 		00842CEE2B3195110033BB86 /* KimTrungApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KimTrungApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00842CF12B3195110033BB86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00842CF32B3195110033BB86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +55,29 @@
 		00842CFD2B3195120033BB86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00842D002B3195120033BB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00842D022B3195120033BB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008AF20D2B32E57D002F057C /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		008AF20E2B32E57D002F057C /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		008AF20F2B32E57D002F057C /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		008AF2102B32E57D002F057C /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		008AF2112B32E57D002F057C /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		008AF2122B32E57D002F057C /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		008AF2132B32E57D002F057C /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		008AF2142B32E57D002F057C /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		008AF2152B32E57D002F057C /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		008AF2162B32E57D002F057C /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		008AF2172B32E57D002F057C /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		008AF2182B32E57D002F057C /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		008AF2192B32E57D002F057C /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		008AF21A2B32E57D002F057C /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Black.ttf"; sourceTree = "<group>"; };
+		008AF21B2B32E57D002F057C /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		008AF21C2B32E57D002F057C /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		008AF21D2B32E57D002F057C /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		008AF21E2B32E57D002F057C /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		00A266472B3920A500116424 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		00A2666C2B3A790D00116424 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		341A20C1CE3BC23FCC7F8B26 /* Pods-KimTrungApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KimTrungApp.debug.xcconfig"; path = "Target Support Files/Pods-KimTrungApp/Pods-KimTrungApp.debug.xcconfig"; sourceTree = "<group>"; };
+		469E153F553B86A818D198D3 /* Pods_KimTrungApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KimTrungApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6466EBA4782E3B87EDEE3D8F /* Pods-KimTrungApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KimTrungApp.release.xcconfig"; path = "Target Support Files/Pods-KimTrungApp/Pods-KimTrungApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +85,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE73F8C9A3DE6D422F8E8B5 /* Pods_KimTrungApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		000807692B32D310007EC236 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				000AA1B12B4669A100919F59 /* Register */,
+				00A266462B39208500116424 /* Login */,
+				0008076A2B32D328007EC236 /* OnBoarding */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0008076A2B32D328007EC236 /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				0008076B2B32D359007EC236 /* OnBoardViewController.swift */,
+				00A2666C2B3A790D00116424 /* ChoiceViewController.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		000AA1B12B4669A100919F59 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				000AA1B22B4669B100919F59 /* RegisterViewController.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		00566CAA2B4D567B0054CAD5 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				00566CAB2B4D56DD0054CAD5 /* InfoProductCollectionViewCell.swift */,
+				00566CAC2B4D56DD0054CAD5 /* InfoProductCollectionViewCell.xib */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		00842CE52B3195110033BB86 = {
 			isa = PBXGroup;
 			children = (
 				00842CF02B3195110033BB86 /* KimTrungApp */,
 				00842CEF2B3195110033BB86 /* Products */,
+				196690D1B94D0E8209CDE310 /* Pods */,
+				03D573EB5F728CB9D45A0684 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +149,9 @@
 		00842CF02B3195110033BB86 /* KimTrungApp */ = {
 			isa = PBXGroup;
 			children = (
+				00566CAA2B4D567B0054CAD5 /* CollectionView */,
+				008AF20C2B32E57D002F057C /* Fonts */,
+				000807692B32D310007EC236 /* Screens */,
 				00842CF12B3195110033BB86 /* AppDelegate.swift */,
 				00842CF32B3195110033BB86 /* SceneDelegate.swift */,
 				00842CF52B3195110033BB86 /* ViewController.swift */,
@@ -70,6 +164,56 @@
 			path = KimTrungApp;
 			sourceTree = "<group>";
 		};
+		008AF20C2B32E57D002F057C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				008AF20D2B32E57D002F057C /* Poppins-ExtraLight.ttf */,
+				008AF20E2B32E57D002F057C /* Poppins-ThinItalic.ttf */,
+				008AF20F2B32E57D002F057C /* Poppins-ExtraLightItalic.ttf */,
+				008AF2102B32E57D002F057C /* Poppins-BoldItalic.ttf */,
+				008AF2112B32E57D002F057C /* Poppins-Light.ttf */,
+				008AF2122B32E57D002F057C /* Poppins-Medium.ttf */,
+				008AF2132B32E57D002F057C /* Poppins-SemiBoldItalic.ttf */,
+				008AF2142B32E57D002F057C /* Poppins-ExtraBoldItalic.ttf */,
+				008AF2152B32E57D002F057C /* Poppins-ExtraBold.ttf */,
+				008AF2162B32E57D002F057C /* Poppins-BlackItalic.ttf */,
+				008AF2172B32E57D002F057C /* Poppins-Regular.ttf */,
+				008AF2182B32E57D002F057C /* Poppins-LightItalic.ttf */,
+				008AF2192B32E57D002F057C /* Poppins-Bold.ttf */,
+				008AF21A2B32E57D002F057C /* Poppins-Black.ttf */,
+				008AF21B2B32E57D002F057C /* Poppins-Thin.ttf */,
+				008AF21C2B32E57D002F057C /* Poppins-SemiBold.ttf */,
+				008AF21D2B32E57D002F057C /* Poppins-Italic.ttf */,
+				008AF21E2B32E57D002F057C /* Poppins-MediumItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		00A266462B39208500116424 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				00A266472B3920A500116424 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		03D573EB5F728CB9D45A0684 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				469E153F553B86A818D198D3 /* Pods_KimTrungApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		196690D1B94D0E8209CDE310 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				341A20C1CE3BC23FCC7F8B26 /* Pods-KimTrungApp.debug.xcconfig */,
+				6466EBA4782E3B87EDEE3D8F /* Pods-KimTrungApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00842D052B3195120033BB86 /* Build configuration list for PBXNativeTarget "KimTrungApp" */;
 			buildPhases = (
+				6A6BE9B3C231DF297D8EFFFB /* [CP] Check Pods Manifest.lock */,
 				00842CEA2B3195110033BB86 /* Sources */,
 				00842CEB2B3195110033BB86 /* Frameworks */,
 				00842CEC2B3195110033BB86 /* Resources */,
+				7F1A810E85937E7C50E848B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,23 +274,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				008AF2212B32E57E002F057C /* Poppins-ExtraLightItalic.ttf in Resources */,
+				008AF22C2B32E57E002F057C /* Poppins-Black.ttf in Resources */,
+				008AF22A2B32E57E002F057C /* Poppins-LightItalic.ttf in Resources */,
+				008AF22D2B32E57E002F057C /* Poppins-Thin.ttf in Resources */,
+				008AF2282B32E57E002F057C /* Poppins-BlackItalic.ttf in Resources */,
+				008AF22E2B32E57E002F057C /* Poppins-SemiBold.ttf in Resources */,
+				008AF22B2B32E57E002F057C /* Poppins-Bold.ttf in Resources */,
+				008AF21F2B32E57E002F057C /* Poppins-ExtraLight.ttf in Resources */,
+				00566CAE2B4D56DD0054CAD5 /* InfoProductCollectionViewCell.xib in Resources */,
+				008AF2222B32E57E002F057C /* Poppins-BoldItalic.ttf in Resources */,
+				008AF2232B32E57E002F057C /* Poppins-Light.ttf in Resources */,
+				008AF2272B32E57E002F057C /* Poppins-ExtraBold.ttf in Resources */,
 				00842D012B3195120033BB86 /* LaunchScreen.storyboard in Resources */,
+				008AF2252B32E57E002F057C /* Poppins-SemiBoldItalic.ttf in Resources */,
+				008AF2262B32E57E002F057C /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				008AF2292B32E57E002F057C /* Poppins-Regular.ttf in Resources */,
+				008AF2202B32E57E002F057C /* Poppins-ThinItalic.ttf in Resources */,
+				008AF2242B32E57E002F057C /* Poppins-Medium.ttf in Resources */,
 				00842CFE2B3195120033BB86 /* Assets.xcassets in Resources */,
+				008AF22F2B32E57E002F057C /* Poppins-Italic.ttf in Resources */,
+				008AF2302B32E57E002F057C /* Poppins-MediumItalic.ttf in Resources */,
 				00842CF92B3195110033BB86 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6A6BE9B3C231DF297D8EFFFB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KimTrungApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F1A810E85937E7C50E848B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KimTrungApp/Pods-KimTrungApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KimTrungApp/Pods-KimTrungApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KimTrungApp/Pods-KimTrungApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00842CEA2B3195110033BB86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A266482B3920A500116424 /* LoginViewController.swift in Sources */,
 				00842CF62B3195110033BB86 /* ViewController.swift in Sources */,
 				00842CF22B3195110033BB86 /* AppDelegate.swift in Sources */,
+				000AA1B32B4669B100919F59 /* RegisterViewController.swift in Sources */,
 				00842CFC2B3195110033BB86 /* KimTrungApp.xcdatamodeld in Sources */,
 				00842CF42B3195110033BB86 /* SceneDelegate.swift in Sources */,
+				0008076C2B32D359007EC236 /* OnBoardViewController.swift in Sources */,
+				00566CAD2B4D56DD0054CAD5 /* InfoProductCollectionViewCell.swift in Sources */,
+				00A2666D2B3A790D00116424 /* ChoiceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -279,7 +491,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -291,11 +503,14 @@
 		};
 		00842D062B3195120033BB86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 341A20C1CE3BC23FCC7F8B26 /* Pods-KimTrungApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 783D7GTCZ7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KimTrungApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -303,6 +518,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +534,14 @@
 		};
 		00842D072B3195120033BB86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6466EBA4782E3B87EDEE3D8F /* Pods-KimTrungApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 783D7GTCZ7;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KimTrungApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -330,6 +549,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

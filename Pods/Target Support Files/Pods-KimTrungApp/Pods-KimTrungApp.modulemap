@@ -1,0 +1,6 @@
+framework module Pods_KimTrungApp {
+  umbrella header "Pods-KimTrungApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
