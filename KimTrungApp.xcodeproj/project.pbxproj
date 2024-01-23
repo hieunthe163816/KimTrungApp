@@ -38,6 +38,7 @@
 		008AF2302B32E57E002F057C /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 008AF21E2B32E57D002F057C /* Poppins-MediumItalic.ttf */; };
 		00A266482B3920A500116424 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A266472B3920A500116424 /* LoginViewController.swift */; };
 		00A2666D2B3A790D00116424 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2666C2B3A790D00116424 /* ChoiceViewController.swift */; };
+		00C2A0712B5E168B00D7DFDC /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2A0702B5E168B00D7DFDC /* ForgetPasswordViewController.swift */; };
 		4CE73F8C9A3DE6D422F8E8B5 /* Pods_KimTrungApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 469E153F553B86A818D198D3 /* Pods_KimTrungApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		008AF21E2B32E57D002F057C /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
 		00A266472B3920A500116424 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		00A2666C2B3A790D00116424 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
+		00C2A0702B5E168B00D7DFDC /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
 		341A20C1CE3BC23FCC7F8B26 /* Pods-KimTrungApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KimTrungApp.debug.xcconfig"; path = "Target Support Files/Pods-KimTrungApp/Pods-KimTrungApp.debug.xcconfig"; sourceTree = "<group>"; };
 		469E153F553B86A818D198D3 /* Pods_KimTrungApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KimTrungApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6466EBA4782E3B87EDEE3D8F /* Pods-KimTrungApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KimTrungApp.release.xcconfig"; path = "Target Support Files/Pods-KimTrungApp/Pods-KimTrungApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 		000807692B32D310007EC236 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				00C2A06F2B5E166200D7DFDC /* Forget Password */,
 				000AA1B12B4669A100919F59 /* Register */,
 				00A266462B39208500116424 /* Login */,
 				0008076A2B32D328007EC236 /* OnBoarding */,
@@ -195,6 +198,14 @@
 				00A266472B3920A500116424 /* LoginViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		00C2A06F2B5E166200D7DFDC /* Forget Password */ = {
+			isa = PBXGroup;
+			children = (
+				00C2A0702B5E168B00D7DFDC /* ForgetPasswordViewController.swift */,
+			);
+			path = "Forget Password";
 			sourceTree = "<group>";
 		};
 		03D573EB5F728CB9D45A0684 /* Frameworks */ = {
@@ -350,6 +361,7 @@
 			files = (
 				00A266482B3920A500116424 /* LoginViewController.swift in Sources */,
 				00842CF62B3195110033BB86 /* ViewController.swift in Sources */,
+				00C2A0712B5E168B00D7DFDC /* ForgetPasswordViewController.swift in Sources */,
 				00842CF22B3195110033BB86 /* AppDelegate.swift in Sources */,
 				000AA1B32B4669B100919F59 /* RegisterViewController.swift in Sources */,
 				00842CFC2B3195110033BB86 /* KimTrungApp.xcdatamodeld in Sources */,
