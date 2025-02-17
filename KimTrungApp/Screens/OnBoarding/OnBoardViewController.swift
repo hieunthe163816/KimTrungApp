@@ -28,7 +28,8 @@ class OnBoardViewController: UIViewController {
         let details2 : DetailScreen = DetailScreen(img: "ImgOnboard2", info: "All your favorites.", content: "Order from the best local restaurants with easy, on-demand delivery.")
         let details3 : DetailScreen = DetailScreen(img: "ImgOnboard3", info: "Free delivery offers.", content: "Free delivery for new customers via Apple Pay and others payment methods.")
         let details4 : DetailScreen = DetailScreen(img: "ImgOnboard4", info: "Choose your food", content: "Easily find your type of food craving and you’ll get delivery in wide range.")
-        return [details1, details2, details3,details4]
+        let details5 : DetailScreen = DetailScreen(img: "ImgOnboard4", info: "Choose your food", content: "Easily find your type of food craving and you’ll get delivery in wide range.")
+        return [details1, details2, details3,details4,details5]
     }
     
     var indexPage : Int = 0
@@ -52,10 +53,33 @@ class OnBoardViewController: UIViewController {
     }
     
     @IBAction func onclickButton(_ sender: Any) {
+        if indexPage == 3 {
+            OnboardService.shared.markOnboarded()
+            /// Lấy ra đc uiwindow
+            goToLogin()
+        }
+        print("indexPage = \(indexPage)")
         indexPage += 1
         imgMain.image = UIImage(named: listDetails[indexPage].img)
         lbContent.text = listDetails[indexPage].content
         lbTitle.text = listDetails[indexPage].info
+        
+    }
+    
+    
+    private func goToLogin() {
+        if let uwWindow = (UIApplication.shared.delegate as? AppDelegate)?.window {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let loginVC = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+            
+            let loginNavigation = UINavigationController(rootViewController: loginVC)
+            
+            uwWindow.rootViewController = loginNavigation// Đưa cho windown 1 viewcontroller
+            /// Make visible keywindown
+            uwWindow.makeKeyAndVisible()
+        } else {
+            print("LỖI")
+        }
     }
     
     /*

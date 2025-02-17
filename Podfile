@@ -7,6 +7,7 @@ target 'KimTrungApp' do
 
   # Pods for KimTrungApp
 
+  
   pod 'SwiftHEXColors'
   
   pod 'Alamofire'
@@ -23,12 +24,22 @@ target 'KimTrungApp' do
   
   pod 'Socket.IO-Client-Swift', '~> 15.2.0'
   
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  
   pod 'MessageKit'
+  pod 'MotionToastView'
   
   pod 'FirebaseAnalytics'
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
   pod 'FirebaseDatabase'
+  pod 'FirebaseStorage'
+  pod 'Cosmos', '~> 25.0'
+  pod 'MGStarRatingView'
+  pod 'SDWebImage'
+  
+  pod "ESTabBarController-swift"
   
 end
 
@@ -37,6 +48,8 @@ post_install do |installer|
         project.targets.each do |target|
             target.build_configurations.each do |config|
                 config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '13.0'
+                config.build_settings.delete('CODE_SIGNING_ALLOWED')
+                config.build_settings.delete('CODE_SIGNING_REQUIRED')
             end
         end
     end
